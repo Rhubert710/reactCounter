@@ -1,0 +1,46 @@
+body{
+    
+  margin: 0px;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.App{
+
+  height: calc(100vh - 39px);
+  width: calc(100vw - 39px);
+  max-width: 404px;
+  max-height: 752px;
+  border: 19px double;
+
+}
+
+.red-bar{
+  
+  background-color: rgb(254, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  padding: 19px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+#row1{
+
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.9rem;
+  padding: 19px;
+}
+
+#score_imgs_div{
+  width: 85%;
+  margin: auto;
+}
+  .star-img{
+      
+      width: 19%;
+  }
